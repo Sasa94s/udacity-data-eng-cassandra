@@ -45,6 +45,7 @@ For the first query:
 - Column 4 = song
 - Column 5 = length
 - Primary key = (sessionId, itemInSession)
+
 For the second query:
 - Column 1 = userId
 - Column 2 = sessionId
@@ -54,6 +55,7 @@ For the second query:
 - Column 6 = firstName
 - Column 7 = lastName
 - Primary key = (userId, sessionId) with clustering column itemInSession
+
 For the third query:
 - Column 1 = song
 - Column 2 = firstName
