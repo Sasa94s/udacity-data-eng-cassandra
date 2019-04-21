@@ -39,26 +39,26 @@ For NoSQL databases, we design the schema based on the queries we know we want t
 ## Schema
 
 For the first query: 
-    - Column 1 = sessionId
-    - Column 2 = itemInSession
-    - Column 3 = artist
-    - Column 4 = song
-    - Column 5 = length
-    - Primary key = (sessionId, itemInSession)
+- Column 1 = sessionId
+- Column 2 = itemInSession
+- Column 3 = artist
+- Column 4 = song
+- Column 5 = length
+- Primary key = (sessionId, itemInSession)
 For the second query:
-    - Column 1 = userId
-    - Column 2 = sessionId
-    - Column 3 = artist
-    - Column 4 = song
-    - Column 5 = itemInSession
-    - Column 6 = firstName
-    - Column 7 = lastName
-    - Primary key = (userId, sessionId) with clustering column itemInSession
+- Column 1 = userId
+- Column 2 = sessionId
+- Column 3 = artist
+- Column 4 = song
+- Column 5 = itemInSession
+- Column 6 = firstName
+- Column 7 = lastName
+- Primary key = (userId, sessionId) with clustering column itemInSession
 For the third query:
-    - Column 1 = song
-    - Column 2 = firstName
-    - Column 3 = lastName
-    - Primary key = (song)
+- Column 1 = song
+- Column 2 = firstName
+- Column 3 = lastName
+- Primary key = (song)
 
 ## ETL Pipeline
 
